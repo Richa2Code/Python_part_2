@@ -19,3 +19,6 @@ def fun2(num):
 element = [1, 2, 3] # element is mutable type so here it's address will go to the function 
 fun2(element)
 print(f"Outside the function = {element}")
+
+
+# to see the adderess of the variable use id(var_name)
