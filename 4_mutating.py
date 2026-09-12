@@ -8,3 +8,4 @@ def rebind(x):
 nums = [1, 2, 3, 4]
 rebind(nums)
 print(f"Outside the function = {nums}")
+print(f"Outside the function = {nums}")
