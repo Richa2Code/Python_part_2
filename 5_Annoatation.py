@@ -8,7 +8,7 @@ x = calculate(3,  5)
 print(x)
 
 # Example 2
-def max_mark(marks: list) -> int:
+def max_mark(marks: list[int | str]) -> int:
   return max(marks)
 
 mark = [20, 18, 19, 100]
